@@ -26,7 +26,7 @@ export const hero = {
   secondaryCta: { label: "Contact", href: "#contact" },
   stackLabels: ["Data", "Signal", "Judgment", "Execution"],
   arc: [
-    { num: "17", label: "First founder project" },
+    { num: "Age 17", label: "First founder project" },
     { num: "1995 to 2019", label: "Built and exited companies" },
     { num: "2019", label: "KEEG acquired by University of California, Irvine" },
     { num: "2021 to now", label: "Advisory, RavenOS, and owned systems" },
