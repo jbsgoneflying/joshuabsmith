@@ -1,0 +1,5 @@
+<svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="40" height="40" rx="9" fill="#0F1115"/>
+  <rect x="2.5" y="2.5" width="35" height="35" rx="7" fill="none" stroke="#B08D57" stroke-opacity="0.55"/>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="0.5" fill="#F4F1EA">JBS</text>
+</svg>

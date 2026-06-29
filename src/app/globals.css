@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f1115;
+  --bg-secondary: #171a21;
+  --text: #f4f1ea;
+  --text-secondary: #b8b2a7;
+  --muted: #7e7a72;
+  --green: #2e5f4f;
+  --brass: #b08d57;
+  --border: rgba(244, 241, 234, 0.1);
+  --border-soft: rgba(244, 241, 234, 0.06);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-size: 15.5px;
+    line-height: 1.72;
+    font-feature-settings: "liga" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: rgba(176, 141, 87, 0.25);
+    color: var(--text);
+  }
+
+  @media (max-width: 767px) {
+    p {
+      font-size: 16px;
+      line-height: 1.72;
+    }
+  }
+}
+
+@layer components {
+  .label {
+    @apply font-sans text-[10px] uppercase tracking-label text-muted;
+  }
+
+  .container-page {
+    @apply mx-auto w-full max-w-content px-6 sm:px-8;
+  }
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 0.7s ease-out,
+    transform 0.7s ease-out;
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
