@@ -54,7 +54,7 @@ export const built = {
     "Looking back, I do not see that arc as self-made. I see the Lord\u2019s wisdom, favor, correction, and grace woven through all of it. The opened doors, the hard lessons, the falls, the recoveries, and the ability to keep going were not mine to manufacture.",
     "The category changed. The pattern did not.",
     "Find the constraint. Learn the system. Build the bridge. Be faithful with what is in front of me.",
-    "RavenOS, NRGX Labs, InjuryOS, and Versefold are current expressions of that same operating pattern.",
+    "RavenOS, NRGX Labs, and Versefold are current expressions of that same operating pattern.",
   ],
 };
 
@@ -181,7 +181,7 @@ export const currentWork = {
   eyebrow: "Current Work",
   title: "Current Work",
   intro:
-    "Today, the work is moving from personal advisory into owned systems. RavenOS, NRGX Labs, InjuryOS, and Versefold are not separate side quests. They are current expressions of the same pattern that has followed me since the beginning: understand the system, find the constraint, build the bridge, and make better decisions possible.",
+    "Today, the work is moving from personal advisory into owned systems. RavenOS, NRGX Labs, and Versefold are not separate side quests. They are current expressions of the same pattern that has followed me since the beginning: understand the system, find the constraint, build the bridge, and make better decisions possible.",
   cards: [
     {
       label: "Growth System",
@@ -198,14 +198,6 @@ export const currentWork = {
       body: [
         "Invite-only institutional options research platform.",
         "NRGX Labs is built around quant engines, live market-state analysis, structured AI explanations, and production-grade research workflows. The operating philosophy is simple: quant decides, the model explains.",
-      ],
-    },
-    {
-      label: "Legal Tech",
-      title: "InjuryOS",
-      body: [
-        "Legal-tech operating system concept for plaintiff-side injury firms.",
-        "InjuryOS is being designed around demand capture, intake speed, qualification, nurture, attribution, and signed-case feedback. The goal is to move legal growth from channel-first marketing into a connected operating system.",
       ],
     },
     {

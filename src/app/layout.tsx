@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Joshua b. Smith | Founder, Operator, Systems Builder",
   description:
-    "Joshua b. Smith is a founder, operator, DTC growth strategist, and systems builder working across ecommerce growth, RavenOS, NRGX Labs, InjuryOS, Versefold, AI-assisted operating systems, and founder-led execution.",
+    "Joshua b. Smith is a founder, operator, DTC growth strategist, and systems builder working across ecommerce growth, RavenOS, NRGX Labs, Versefold, AI-assisted operating systems, and founder-led execution.",
   alternates: {
     canonical: siteUrl,
   },
